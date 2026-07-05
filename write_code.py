@@ -5,18 +5,14 @@ from sys import argv, exit
 
 
 def exit_if_invalid_file(name, file):
-    """
-    Checks for check_lang()
-    """
+    """Checks for check_lang()"""
 
     if check_lang(name, file) == False:
         exit()  # To avoid making incorrect file and write code in it
 
 
 def write_ai_generated_code():
-    """
-    Takes the code from AI and writes it in your file
-    """
+    """Takes the code from AI and writes it in your file"""
 
     name = programming_language_name()
     lang_file = programming_language_file()
