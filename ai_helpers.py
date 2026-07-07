@@ -1,7 +1,7 @@
 from rich import print
 try:
     from groq import Groq
-except ModuleNotFoundError:
+except ModuleNotFoundError: # If there is no GQOR_API_KEY
     print("[red]No API key created, Please make QROQ_API_KEY in .env file[/red]")
 import os
 from dotenv import load_dotenv
