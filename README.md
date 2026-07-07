@@ -6,7 +6,7 @@
 
 
 # CLISIPY 
-## * __(Command-Line Interface Smart Interpreter by Python)__*
+## *__(Command-Line Interface Smart Interpreter by Python)__*
 
 Convert pseudocode into actual code across 25+ *__(and more in future!)__* programming languages using AI.
 
