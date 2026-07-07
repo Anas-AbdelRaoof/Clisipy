@@ -1,4 +1,8 @@
-from groq import Groq
+from rich import print
+try:
+    from groq import Groq
+except ModuleNotFoundError:
+    print("[red]No API key created, Please make QROQ_API_KEY in .env file[/red]")
 import os
 from dotenv import load_dotenv
 from system_prompt import system_prompt
