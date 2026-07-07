@@ -4,13 +4,13 @@
 <img width="500" height="500" alt="Pseutocode-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/a418522b-a1b2-4e06-9fb6-8481ba3e91eb" />
 
 
-# ClisiPy
+# CLISIPY
 
 Convert pseudocode into actual code across 25+ *__(and more in future!)__* programming languages using AI.
 
 ## Overview
 
-ClisiPy is a command-line tool that leverages the Groq API and the Llama 3.3 70B model to automatically convert pseudocode into production-ready code. Simply write your pseudocode logic, and let AI handle the implementation in your chosen programming language.
+CLISIPY is a command-line tool that leverages the Groq API and the Llama 3.3 70B model to automatically convert pseudocode into production-ready code. Simply write your pseudocode logic, and let AI handle the implementation in your chosen programming language.
 
 ## Features
 
@@ -31,13 +31,13 @@ Python, C++, C, Java, Ruby, C#, PHP, Rust, Go, Lua, Swift, Kotlin, Dart, GDScrip
 If you have Git installed, clone the repository:
 
 ```bash
-git clone https://github.com/Anas-AbdelRaoof/ClisiPy.git
-cd ClisiPy
+git clone https://github.com/Anas-AbdelRaoof/CLISIPY.git
+cd CLISIPY
 ```
 
 ### Option 2: Download as ZIP
 
-1. Go to [github.com/Anas-AbdelRaoof/ClisiPy](https://github.com/Anas-AbdelRaoof/ClisiPy)
+1. Go to [github.com/Anas-AbdelRaoof/CLISIPY](https://github.com/Anas-AbdelRaoof/CLISIPY)
 2. Click the green **Code** button
 3. Select **Download ZIP**
 4. Extract the downloaded file
@@ -46,7 +46,7 @@ cd ClisiPy
 
 1. Navigate to the project directory:
 ```bash
-cd ClisiPy 
+cd CLISIPY 
 ```
 
 2. Install dependencies:
