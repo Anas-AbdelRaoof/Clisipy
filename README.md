@@ -54,6 +54,10 @@ cd Pseutocode
 pip install -r requirements.txt --break-system-packages
 ```
 
+```bash
+cd src
+```
+
 3. Set up your Groq API key:
    - Create a `.env` file in the project root
    - Add your API key:
