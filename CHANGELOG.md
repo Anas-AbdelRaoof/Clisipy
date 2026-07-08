@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0] - 2026-07-08
+## CLISIPY-1.0 - 2026-07-08
 
 ### Added
 
@@ -51,17 +51,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Robust exception handling for API interactions
 - Case-insensitive language name matching
 - Extension-based language identification
-
-### Dependencies
-
-- `groq` (1.5.0) - Groq API client library
-- `python-dotenv` (1.2.2) - Environment variable management
-- `rich` (15.0.0) - Terminal formatting and output enhancement
-
-### License
-
-MIT License
-
----
 
 For more information, visit [CLISIPY on GitHub](https://github.com/Anas-AbdelRaoof/CLISIPY)
