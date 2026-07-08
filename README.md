@@ -1,7 +1,7 @@
 
 
 
-<img width="800" height="800" alt="CLISIPY" src="https://github.com/user-attachments/assets/d3d621d7-0a8b-42af-8872-c9411d4ccdb4" />
+<img width="550" height="550" alt="CLISIPY" src="https://github.com/user-attachments/assets/d3d621d7-0a8b-42af-8872-c9411d4ccdb4" />
 
 
 
@@ -111,7 +111,7 @@ python app.py algorithm.txt python sum.py
 
 ## License
 
-MIT License - see LICENSE file for details
+[MIT License](https://opensource.org/licenses/MIT)
 
 ## Contributing
 
