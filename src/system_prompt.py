@@ -8,7 +8,7 @@ def system_prompt():
 
     programming_language = programming_language_name()  # The Programming language that the user choose
 
-    tip = programming_languages_tips() # The programming language clean code rules and tips
+    tip = programming_language_tips() # The programming language clean code rules and tips
 
     system_prompt = f"""
                         Convert this pseudocode {pseudocode} into clean, modern, standard style, and smart {programming_language} code and don't tell me anything else,
