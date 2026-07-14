@@ -3,40 +3,6 @@ from rich import print
 import os
 
 
-# Mapping of supported language names (keys) to their file extensions (values).
-# Keys should be lowercase and may include common aliases (e.g. "js" and "javascript").
-# Values include the leading dot (".py", ".js") so they can be compared directly
-# against the value returned from os.path.splitext(filename)[1].
-# Keep this dictionary updated when you add/remove supported languages.
-languages_extensions = {
-    "python": ".py",
-    "c++": ".cpp",
-    "cpp": ".cpp",
-    "c": ".c",
-    "java": ".java",
-    "ruby": ".rb",
-    "c#": ".cs",
-    "cs": ".cs",
-    "csharp": ".cs",
-    "php": ".php",
-    "rust": ".rs",
-    "go": ".go",
-    "golang": ".go",
-    "lua": ".lua",
-    "swift": ".swift",
-    "kotlin": ".kt",
-    "dart": ".dart",
-    "gdscript": ".gd",
-    "js": ".js",
-    "javascript": ".js",
-    "zig": ".zig",
-    "julia": ".jl",
-    "f#": ".fs",
-    "fsharp": ".fs",
-    "cython": ".pyx",
-}  # Notice: the languages names were lower() before this dictionary
-
-
 def check_lang(language_name, language_file):
     """
     Validate that the given filename matches the expected file extension for the
