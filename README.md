@@ -1,18 +1,10 @@
-
-
-
-<img width="550" height="550" alt="CLISIPY" src="https://github.com/user-attachments/assets/d3d621d7-0a8b-42af-8872-c9411d4ccdb4" />
-
-
-
-# Clisipy
-## *__(Command-Line Interface Smart Interpreter by Python)__*
+# NoSyn
 
 Convert pseudocode into actual code across 25+ *__(and more in future!)__* programming languages using AI.
 
 ## Overview
 
-Clisipy is a command-line tool that leverages the Groq API and the Llama 3.3 70B model to automatically convert pseudocode into production-ready code. Simply write your pseudocode logic, and let AI handle the implementation in your chosen programming language.
+NoSyn is a command-line tool that leverages the Groq API and the Llama 3.3 70B model to automatically convert pseudocode into production-ready code. Simply write your pseudocode logic, and let AI handle the implementation in your chosen programming language.
 
 ## Features
 
@@ -33,12 +25,12 @@ Python, C++, C, Java, Ruby, C#, PHP, Rust, Go, Lua, Swift, Kotlin, Dart, GDScrip
 If you have Git installed, clone the repository:
 
 ```bash
-git clone https://github.com/Anas-AbdelRaoof/Clisipy.git
+git clone https://github.com/Anas-AbdelRaoof/NoSyn.git
 ```
 
 ### Option 2: Download as ZIP
 
-1. Go to [github.com/Anas-AbdelRaoof/Clisipy](https://github.com/Anas-AbdelRaoof/CLISIPY)
+1. Go to [github.com/Anas-AbdelRaoof/NoSyn](https://github.com/Anas-AbdelRaoof/NoSyn)
 2. Click the green **Code** button
 3. Select **Download ZIP**
 4. Extract the downloaded file
@@ -47,7 +39,7 @@ git clone https://github.com/Anas-AbdelRaoof/Clisipy.git
 
 1. Navigate to the project directory:
 ```bash
-cd Clisipy 
+cd NoSyn 
 ```
 
 2. Install dependencies:
