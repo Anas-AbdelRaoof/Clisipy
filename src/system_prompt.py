@@ -1,4 +1,4 @@
-from file_helpers import read_file, programming_language_name
+from file_helpers import read_file, programming_language_name, programming_language_tips
 
 
 def system_prompt():
@@ -8,9 +8,13 @@ def system_prompt():
 
     programming_language = programming_language_name()  # The Programming language that the user choose
 
+    tip = programming_languages_tips() # The programming language clean code rules and tips
+
     system_prompt = f"""
                         Convert this pseudocode {pseudocode} into clean, modern, standard style, and smart {programming_language} code and don't tell me anything else,
                         only give me the code without any additions around it,
+                        Follow these tips to write clean code:
+                        {tip}
                         Please don't write ``` and the name of the Programming language around the code, Write the code only.
                         If {programming_language} is low-level Programming language and doesn't have Garbage Collector, Be careful for memory and it's errors.
                         Avoid hallucination and importing non-real libraries, Stop writing legacy code, Write the code by practices of last version of
