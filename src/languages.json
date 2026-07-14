@@ -16,7 +16,7 @@
   },
   "java": {
     "name": "java",
-    "extension": "java",
+    "extension": ".java",
     "tips": "Use descriptive variables names, follow clean code rules, Use OOP and functions with descriptive names to make the code organized."
   },
   "c#": {
@@ -50,7 +50,7 @@
     "tips": "Use descriptive variables names, follow clean code rules and iOS/macOS standard developing rules, Use classes and functions with descriptive names to make the code organized."
   },
   "kotlin": {
-    "name": "swift",
+    "name": "kotlin",
     "extension": ".kt",
     "tips": "Use descriptive variables names, follow clean code rules and Android standard developing rules, Use classes and functions with descriptive names to make the code organized."
   },
