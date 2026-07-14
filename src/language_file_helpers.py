@@ -2,8 +2,7 @@ import sys
 try:
     from rich import print
 except ModuleNotFoundError:
-    print("Please download requirements.txt by <pip install -r requirements.txt --break-system-packages>")
-    sys.exit()
+    sys.exit("Please download requirements.txt by <pip install -r requirements.txt --break-system-packages>")
 import os
 import json
 
