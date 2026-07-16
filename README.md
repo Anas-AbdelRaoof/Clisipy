@@ -1,6 +1,6 @@
 # NoSyn
 
-Convert pseudocode into actual code across 25+ *__(and more in future!)__* programming languages using AI.
+Convert pseudocode into actual code across 25+ *__(and more in the future!)__* programming languages using AI.
 
 ## Overview
 
