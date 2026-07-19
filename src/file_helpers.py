@@ -14,7 +14,7 @@ def read_file():
         pseudocode_file = argv[1]  # The text file that contains pseudocode
         with open(pseudocode_file, "r") as file:
             check_file_txt(file.name)
-            return read_file_content(file)  # The pseudocode
+            return file.read()  # The pseudocode
 
     except FileNotFoundError:
         print(f"[red]File [italic blue]<{pseudocode_file}>[/italic blue] not found[/red]")
@@ -45,12 +45,6 @@ def is_empty_file(file):
     if os.path.getsize(file) == 0:
         print(f"[red]File [italic blue]<{file}>[/italic blue] is empty[/red]")
         exit()
-
-
-def read_file_content(file):
-    """Reading simply the file.txt"""
-
-    return file.read()
 
 
 def programming_language_name():
