@@ -88,5 +88,30 @@
     "name": "cython",
     "extension": ".pyx",
     "tips": "Use descriptive variables names, follow PEP 8 clean code rules from Python and type declaration from C, Use classes and functions with descriptive names to make the code organized."
+  },
+  "typescript": {
+    "name": "typescript",
+    "extension": ".ts",
+    "tips": "Use descriptive variables names, follow clean code rules and TypeScript standard developing rules Use strict type annotations and interfaces, Use classes and functions with descriptive names to make the code organized."
+  },
+  "ruby": {
+    "name": "ruby",
+    "extension": ".rb",
+    "tips": "Use descriptive variables names, follow clean code rules and Ruby conventions, Use classes and functions with descriptive names to make the code organized, leverage Ruby's expressive syntax and metaprogramming features."
+  },
+  "haskell": {
+    "name": "haskell",
+    "extension": ".hs",
+    "tips": "Use descriptive variables names, follow functional programming rules and type system best practices, Use pure functions and avoid side effects, Use modules and functions with descriptive names to make the code organized."
+  },
+  "r": {
+    "name": "r",
+    "extension": ".r",
+    "tips": " Use descriptive variables names, follow clean code rules for statistical computing, Use functions and vectorized operations with descriptive names to make the code organized."
+  },
+  "octave": {
+    "name": "octave",
+    "extension": ".m",
+    "tips": "Use descriptive variables names, follow clean code rules for numerical computing, Use functions and vectorized operations with descriptive names to make the code organized."
   }
 }
